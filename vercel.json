@@ -8,6 +8,11 @@
   ],
   "routes": [
     {
+      "src": "/authentication/createuser",
+      "methods": ["POST"],
+      "dest": "./index.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "./index.js"
     }
