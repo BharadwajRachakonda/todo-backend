@@ -10,8 +10,6 @@ const { Collection } = require("mongoose");
 const JWT_SECRET = "Bharat";
 const router = express.Router();
 
-export const maxDuration = 300;
-
 const validation = () => {
   return [
     body("title", "Title length must be at least 4").isLength({ min: 4 }),

@@ -8,8 +8,6 @@ const fetchUser = require("../middleware/fetchUser");
 
 const JWT_SECRET = "Bharat";
 
-export const maxDuration = 300;
-
 //Create a user using: POST --> "api/authentication"
 
 const validation = () => {

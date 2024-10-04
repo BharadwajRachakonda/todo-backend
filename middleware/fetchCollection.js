@@ -1,7 +1,5 @@
 const jwt = require("jsonwebtoken");
 
-export const maxDuration = 300;
-
 const fetchCollection = (req, res, next) => {
   const token = req.header("auth-token-collection");
   if (!token) {
