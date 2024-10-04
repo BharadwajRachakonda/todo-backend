@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const mongodb_uri =
   "mongodb+srv://rbharadwaj022:svJcNl3qOLY80Gfa@learningmongo.aspvevn.mongodb.net/ToDo";
-
+//comment for empty commit
 const connection = async () => {
   mongoose
     .connect(mongodb_uri)
