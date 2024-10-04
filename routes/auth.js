@@ -29,6 +29,11 @@ const validation = () => {
   ];
 };
 
+//for testing
+router.get("/", (req, res) => {
+  res.send("TEST Hello");
+});
+
 //ROUTE 1 : new user --> /api/authentication/createuser
 
 router.post("/createuser", validation(), async (req, res) => {
