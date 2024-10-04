@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const mongodb_uri =
   "mongodb+srv://rbharadwaj022:svJcNl3qOLY80Gfa@learningmongo.aspvevn.mongodb.net/ToDo";
+export const maxDuration = 300;
 
 const connection = async () => {
   await mongoose

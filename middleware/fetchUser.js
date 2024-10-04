@@ -1,5 +1,7 @@
 const jwt = require("jsonwebtoken");
 
+export const maxDuration = 300;
+
 const fetchUser = (req, res, next) => {
   const token = req.header("auth-token");
   if (!token) {
